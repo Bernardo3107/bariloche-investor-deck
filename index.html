@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bariloche Luxury Group Rental – Investment Case</title>
+<meta name="description" content="Investor presentation: a luxury group-rental house in Bariloche, Argentina.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Rubik:wght@300;400;500;600&display=swap">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;background:#0B1613;overflow:hidden;font-family:'Rubik',Arial,sans-serif}
+#viewport{position:fixed;inset:0;display:flex;align-items:center;justify-content:center}
+#stage{position:relative;width:1920px;height:1080px;flex:none;transform-origin:center center}
+.slide{position:absolute!important;left:0;top:0;width:1920px;height:1080px;overflow:hidden;opacity:0;visibility:hidden;transform:scale(1.012);transition:opacity .7s ease,transform .9s cubic-bezier(.2,.7,.2,1),visibility 0s linear .7s}
+.slide.on{opacity:1;visibility:visible;transform:none;transition:opacity .7s ease,transform .9s cubic-bezier(.2,.7,.2,1),visibility 0s}
+.slide div:not([style*="display"]){display:flex;flex-direction:column}
+.slide ul{padding-left:1.15em} .slide li{margin:0}
+.slide a{color:inherit;text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:2px}
+.slide a:hover{opacity:.75}
+.slide table{border-collapse:collapse;width:100%}
+.slide th,.slide td{padding:.35em .6em;border-bottom:1px solid #D6CFC1;vertical-align:top}
+.slide th{font-weight:600;border-bottom:2px solid #9AA49F}
+.slide hr{border:none}
+.slide h1,.slide h2,.slide h3{font-weight:600}
+.slide .ic svg{width:100%;height:100%}
+.slide [data-build-in]{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.slide [data-build-in^="left"]{transform:translateX(-32px)}
+.slide [data-build-in^="right"]{transform:translateX(32px)}
+.slide [data-build-in^="fade"]{transform:none}
+.slide.on [data-build-in]{opacity:1;transform:none}
+#bar{position:fixed;left:0;bottom:0;height:3px;background:#E0A55C;transition:width .6s ease;z-index:5}
+#ui{position:fixed;right:18px;bottom:14px;display:flex;gap:8px;align-items:center;z-index:6;font:500 13px Rubik,Arial,sans-serif;color:#D9DED9;opacity:.35;transition:opacity .3s}
+#ui:hover{opacity:1}
+#ui button{background:rgba(19,34,30,.85);color:#F6F3EC;border:1px solid rgba(246,243,236,.25);border-radius:8px;width:34px;height:30px;cursor:pointer;font-size:15px}
+@media (prefers-reduced-motion:reduce){.slide,.slide [data-build-in]{transition:none!important}}
+</style></head><body>
+<div id="viewport"><div id="stage">
+<section class="slide" data-i="0" id="cover" data-transition="fade" style="background:#13221E;color:#F6F3EC;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center">
+<svg aria-label="Illustration of a timber lodge on the shore of a lake beneath snow-capped Andes peaks at dusk" style="position:absolute;left:0;top:0;width:1920px;height:1080px" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B3440"/><stop offset="0.55" stop-color="#5E8197"/><stop offset="1" stop-color="#E8C9A0"/></linearGradient>
+<linearGradient id="lake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4C7C93"/><stop offset="1" stop-color="#15303C"/></linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#F2B661" stop-opacity="0.55"/><stop offset="1" stop-color="#F2B661" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1920" height="1080" fill="url(#sky)"/>
+<circle cx="1560" cy="250" r="46" fill="#F4E3C4" opacity="0.85"/>
+<path d="M0 640 L180 470 L300 540 L470 330 L620 500 L760 410 L900 560 L1080 300 L1250 480 L1380 400 L1560 560 L1720 420 L1920 520 L1920 760 L0 760Z" fill="#7C98AA"/>
+<path d="M470 330 L420 392 L450 380 L470 402 L495 376 L522 396Z" fill="#F4F1EA"/>
+<path d="M1080 300 L1018 372 L1055 360 L1080 388 L1106 358 L1142 376Z" fill="#F4F1EA"/>
+<path d="M1720 420 L1678 472 L1704 462 L1724 482 L1746 460 L1768 472Z" fill="#F4F1EA"/>
+<path d="M760 410 L728 446 L748 440 L762 454 L778 438 L792 448Z" fill="#F4F1EA"/>
+<path d="M1380 400 L1350 434 L1368 428 L1382 442 L1396 426 L1410 436Z" fill="#F4F1EA"/>
+<path d="M0 720 L220 560 L380 650 L560 520 L760 660 L980 545 L1200 680 L1400 585 L1640 690 L1920 600 L1920 770 L0 770Z" fill="#3F5E6B"/>
+<rect y="750" width="1920" height="330" fill="url(#lake)"/>
+<rect x="300" y="800" width="520" height="3" fill="#E8C9A0" opacity="0.25"/>
+<rect x="900" y="850" width="380" height="3" fill="#E8C9A0" opacity="0.2"/>
+<rect x="520" y="910" width="300" height="3" fill="#E8C9A0" opacity="0.15"/>
+<rect x="1300" y="900" width="200" height="4" fill="#F2B661" opacity="0.35"/>
+<rect x="1330" y="940" width="140" height="4" fill="#F2B661" opacity="0.25"/>
+<path d="M0 790 L0 750 L60 740 L140 752 L220 744 L320 758 L420 770 L520 790Z" fill="#1A2F2A"/>
+<path d="M20 770 L48 690 L76 770Z M70 772 L104 672 L138 772Z M130 770 L160 700 L190 770Z M190 774 L224 680 L258 774Z M250 776 L278 708 L306 776Z M320 780 L346 716 L372 780Z" fill="#0F1C18"/>
+<path d="M1060 1080 L1060 880 Q1360 770 1920 790 L1920 1080Z" fill="#13221E"/>
+<ellipse cx="1560" cy="760" rx="260" ry="120" fill="url(#glow)"/>
+<path d="M1400 790 L1560 690 L1720 790Z" fill="#E9E4DA"/>
+<path d="M1415 792 L1560 704 L1705 792Z" fill="#1A1410"/>
+<rect x="1430" y="790" width="260" height="96" fill="#3A2B1F"/>
+<rect x="1430" y="866" width="260" height="20" fill="#5B5550"/>
+<rect x="1640" y="680" width="22" height="70" fill="#2A2018"/>
+<rect x="1458" y="808" width="56" height="50" fill="#F2B661"/>
+<rect x="1532" y="808" width="56" height="50" fill="#F2B661"/>
+<rect x="1606" y="808" width="56" height="50" fill="#F2B661"/>
+<path d="M1540 744 L1560 728 L1580 744 L1580 772 L1540 772Z" fill="#F2B661"/>
+<path d="M1100 900 L1140 790 L1180 900Z M1160 880 L1204 760 L1248 880Z M1240 860 L1280 762 L1320 860Z M1310 850 L1350 742 L1390 850Z M1760 820 L1800 712 L1840 820Z M1820 830 L1864 700 L1908 830Z" fill="#0B1613"/>
+</svg>
+<div style="position:absolute;left:0;top:0;width:1920px;height:1080px;background:linear-gradient(90deg, rgba(15,28,24,0.94) 0%, rgba(15,28,24,0.72) 42%, rgba(15,28,24,0) 72%)"></div>
+<p data-build-in="fade order 1" style="position:absolute;left:128px;top:300px;width:960px;font-size:24px;letter-spacing:4px;text-transform:uppercase;font-weight:500;color:#E0A55C">Investor presentation · November 2026</p>
+<h1 data-build-in="rise order 2" style="position:absolute;left:128px;top:356px;width:1000px;font-family:'Cormorant Garamond', Georgia, serif;font-size:120px;font-weight:600;line-height:1.0;color:#F6F3EC">A luxury group retreat in Bariloche</h1>
+<p data-build-in="rise order 3" style="position:absolute;left:128px;top:690px;width:860px;font-size:32px;line-height:1.45;color:#D9DED9">Buying a high-end family house in Patagonia and running it as a short-stay rental for groups of 6–10 guests: market, pricing, marketing and payback.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1000px;font-size:24px;color:#AEB8B3">San Carlos de Bariloche · Río Negro · Argentina</p>
+
+</section>
+
+<section class="slide" data-i="1" id="thesis" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">The opportunity at a glance</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">A two-season destination with premium pricing power</h2>
+</div>
+<div data-build-in="rise order 1" style="position:absolute;left:128px;top:400px;width:1664px;display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:16px;padding:40px">
+<p style="font-family:'Cormorant Garamond', Georgia, serif;font-size:88px;font-weight:600;line-height:1.0;color:#2F6F8F">1.5M+</p>
+<p style="font-size:28px;line-height:1.35;color:#4A5550">tourists visited Bariloche in 2025</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:16px;padding:40px">
+<p style="font-family:'Cormorant Garamond', Georgia, serif;font-size:88px;font-weight:600;line-height:1.0;color:#2F6F8F">85–90%</p>
+<p style="font-size:28px;line-height:1.35;color:#4A5550">hotel occupancy at the peak of winter 2026</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:16px;padding:40px">
+<p style="font-family:'Cormorant Garamond', Georgia, serif;font-size:88px;font-weight:600;line-height:1.0;color:#2F6F8F">$250–700</p>
+<p style="font-size:28px;line-height:1.35;color:#4A5550">per night for premium homes sleeping 6–10</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#13221E;border-radius:16px;padding:40px">
+<p style="font-family:'Cormorant Garamond', Georgia, serif;font-size:88px;font-weight:600;line-height:1.0;color:#E0A55C">9.9%</p>
+<p style="font-size:28px;line-height:1.35;color:#D9DED9">net cash yield in our base case, before appreciation</p>
+</div>
+</div>
+<p data-build-in="fade order 2" style="position:absolute;left:128px;top:760px;width:1400px;font-size:32px;line-height:1.45;color:#4A5550">Most visitors stay in hotels. Large, design-led homes for families and groups are a <b style="color:#1E2B27">thin, high-value niche</b>, priced in US dollars.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Sources: AEHGB via Vivo Informado (Mar 2026); CAME (Aug 2026); Argenprop listings; own model (slides 11–13).</p>
+
+</section>
+
+<section class="slide" data-i="2" id="market" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Tourist flows by season</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Snow in winter, lakes in summer</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div data-build-in="left order 1" style="flex:1;display:flex;flex-direction:column;gap:24px;background:#13221E;border-radius:16px;padding:48px">
+<h3 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:48px;font-weight:600;color:#F6F3EC">Winter · July to September</h3>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:230px;font-size:52px;font-weight:600;color:#E0A55C">270k+</p><p style="flex:1;font-size:28px;line-height:1.35;color:#D9DED9">tourists forecast for the 2026 ski season</p></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:230px;font-size:52px;font-weight:600;color:#E0A55C">85–90%</p><p style="flex:1;font-size:28px;line-height:1.35;color:#D9DED9">hotel occupancy during winter holidays</p></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:230px;font-size:52px;font-weight:600;color:#E0A55C">320</p><p style="flex:1;font-size:28px;line-height:1.35;color:#D9DED9">international flights, 33% more than 2025</p></div>
+</div>
+<div data-build-in="right order 2" style="flex:1;display:flex;flex-direction:column;gap:24px;background:#E4ECEE;border-radius:16px;padding:48px">
+<h3 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:48px;font-weight:600;color:#13221E">Summer · December to March</h3>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:230px;font-size:52px;font-weight:600;color:#2F6F8F">145k+</p><p style="flex:1;font-size:28px;line-height:1.35;color:#4A5550">arrivals in January 2026 alone</p></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:230px;font-size:52px;font-weight:600;color:#2F6F8F">79%</p><p style="flex:1;font-size:28px;line-height:1.35;color:#4A5550">average hotel occupancy in January</p></div>
+<div style="display:flex;gap:24px;align-items:center"><p style="width:230px;font-size:52px;font-weight:600;color:#2F6F8F">72%</p><p style="flex:1;font-size:28px;line-height:1.35;color:#4A5550">average occupancy for the full summer</p></div>
+</div>
+</div>
+<p style="font-size:28px;line-height:1.4;color:#4A5550">Year-round base: <b style="color:#1E2B27">654,550 arrivals and 2.3M overnight stays</b> in the first half of 2026; 73% of visitors are Argentine.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Sources: Mercado (Jun 2026); CAME via Noticias NQN (Aug 2026); Bariloche Opina (Feb 2026); AEHGB (Mar 2026); Barilo Noticias (Jul 2026).</p>
+
+</section>
+
+<section class="slide" data-i="3" id="intl" data-transition="fade" style="background:#ECE6DA;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Who is coming</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">International demand is accelerating</h2>
+</div>
+<div style="display:flex;gap:64px;flex:1">
+<div style="width:960px;display:flex;gap:96px;align-items:end">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;gap:32px;align-items:end;height:440px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;align-items:center"><p style="font-size:32px;font-weight:600;color:#4A5550">54.9k</p><div style="width:140px;height:304px;background:#B4BFBA;border-radius:8px 8px 0 0"></div></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;align-items:center"><p style="font-size:32px;font-weight:600;color:#2F6F8F">65k+</p><div style="width:140px;height:360px;background:#2F6F8F;border-radius:8px 8px 0 0"></div></div>
+</div>
+<div style="display:flex;gap:32px"><p style="flex:1;text-align:center;font-size:24px;color:#4A5550">2025</p><p style="flex:1;text-align:center;font-size:24px;color:#4A5550">2026 forecast</p></div>
+<p style="text-align:center;font-size:28px;font-weight:500;color:#1E2B27">Brazilian winter visitors</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;gap:32px;align-items:end;height:440px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;align-items:center"><p style="font-size:32px;font-weight:600;color:#4A5550">≈240</p><div style="width:140px;height:270px;background:#B4BFBA;border-radius:8px 8px 0 0"></div></div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;align-items:center"><p style="font-size:32px;font-weight:600;color:#2F6F8F">320</p><div style="width:140px;height:360px;background:#2F6F8F;border-radius:8px 8px 0 0"></div></div>
+</div>
+<div style="display:flex;gap:32px"><p style="flex:1;text-align:center;font-size:24px;color:#4A5550">2025</p><p style="flex:1;text-align:center;font-size:24px;color:#4A5550">2026</p></div>
+<p style="text-align:center;font-size:28px;font-weight:500;color:#1E2B27">International winter flights</p>
+</div>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:28px;justify-content:center">
+<div data-text style="display:flex;flex-direction:column;gap:8px"><p style="font-size:44px;font-weight:600;color:#2F6F8F">+18%</p><p style="font-size:28px;line-height:1.4;color:#4A5550">Brazil is the core foreign market; São Paulo is the main gateway, with 166 direct Azul flights in winter.</p></div>
+<div data-text style="display:flex;flex-direction:column;gap:8px"><p style="font-size:44px;font-weight:600;color:#2F6F8F">+33%</p><p style="font-size:28px;line-height:1.4;color:#4A5550">more international seats, spreading arrivals across the season.</p></div>
+<div data-text style="display:flex;flex-direction:column;gap:8px"><p style="font-size:44px;font-weight:600;color:#9A5A17">New</p><p style="font-size:28px;line-height:1.4;color:#4A5550">Mexican travellers in summer, seeking luxury, wellness and spa.</p></div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Sources: Mercado &amp; Eventos (2026); ANBariloche (Jan 2026); Mercado (Jun 2026); Bariloche Opina (Aug 2026). 2025 flights implied from +33%.</p>
+
+</section>
+
+<section class="slide" data-i="4" id="property" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:row;gap:72px;align-items:center">
+<svg aria-label="Illustration of a two-storey stone and timber mountain house with large windows, a deck and pine trees, with snowy peaks behind" style="width:720px;height:792px;border-radius:24px" width="720" height="792" viewBox="0 0 720 792" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="s2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9DB7C4"/><stop offset="1" stop-color="#F1E6D3"/></linearGradient>
+<linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7C979"/><stop offset="1" stop-color="#E39A45"/></linearGradient>
+</defs>
+<rect width="720" height="792" fill="url(#s2)"/>
+<path d="M0 420 L120 280 L210 350 L340 200 L470 340 L560 260 L720 380 L720 520 L0 520Z" fill="#7C98AA"/>
+<path d="M340 200 L298 252 L322 244 L340 262 L360 242 L384 254Z M120 280 L92 314 L110 308 L122 320 L136 306 L150 314Z M560 260 L532 294 L550 288 L562 300 L576 286 L590 296Z" fill="#F4F1EA"/>
+<path d="M0 500 L160 420 L300 480 L460 410 L720 470 L720 560 L0 560Z" fill="#4F6E72"/>
+<rect y="540" width="720" height="252" fill="#2B4038"/>
+<path d="M90 400 L360 250 L630 400Z" fill="#EDEAE3"/>
+<path d="M108 404 L360 266 L612 404Z" fill="#2A2018"/>
+<rect x="130" y="400" width="460" height="130" fill="#7A5638"/>
+<rect x="130" y="530" width="460" height="120" fill="#8E8A83"/>
+<rect x="130" y="560" width="460" height="4" fill="#77736C"/>
+<rect x="130" y="600" width="460" height="4" fill="#77736C"/>
+<path d="M300 300 L360 268 L420 300 L420 400 L300 400Z" fill="url(#g2)"/>
+<rect x="358" y="300" width="4" height="100" fill="#2A2018"/>
+<rect x="160" y="420" width="110" height="90" fill="url(#g2)"/>
+<rect x="290" y="420" width="140" height="90" fill="url(#g2)"/>
+<rect x="450" y="420" width="110" height="90" fill="url(#g2)"/>
+<rect x="160" y="550" width="150" height="80" fill="url(#g2)"/>
+<rect x="410" y="550" width="150" height="80" fill="url(#g2)"/>
+<rect x="335" y="560" width="50" height="90" fill="#3A2B1F"/>
+<rect x="100" y="650" width="520" height="16" fill="#5C4330"/>
+<rect x="110" y="666" width="10" height="40" fill="#5C4330"/>
+<rect x="600" y="666" width="10" height="40" fill="#5C4330"/>
+<rect x="520" y="230" width="28" height="110" fill="#5B5550"/>
+<path d="M10 760 L50 620 L90 760Z M60 770 L104 600 L148 770Z M600 770 L644 590 L688 770Z M650 780 L690 640 L730 780Z" fill="#13221E"/>
+<rect y="760" width="720" height="32" fill="#1C2D27"/>
+</svg>
+<div style="flex:1;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">The target asset</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:64px;font-weight:600;line-height:1.05;color:#13221E">A lake-view family home in San Ignacio del Cerro</h2>
+</div>
+<table style="font-size:28px;color:#1E2B27">
+<tr><th style="width:42%;text-align:left">Feature</th><th style="width:58%;text-align:left">Profile sought</th></tr>
+<tr><td>Built area</td><td>≈ 370 m² on a 1,700 m² lot</td></tr>
+<tr><td>Bedrooms</td><td>5 bedrooms · sleeps 8–10</td></tr>
+<tr><td>Bathrooms</td><td>4 or more</td></tr>
+<tr><td>Views</td><td>Lake Nahuel Huapi and the Andes</td></tr>
+<tr><td>Location</td><td>Wooded residential area off Av. de los Pioneros</td></tr>
+<tr><td>Asking price</td><td>≈ USD 500,000</td></tr>
+</table>
+<p style="font-size:24px;line-height:1.4;color:#4A5550">Must-haves for this business: central heating, fireplace, hot tub or sauna, parking for 2–3 cars, and year-round road access in snow.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Profile based on a comparable 5-bedroom San Ignacio del Cerro listing (Zonaprop / MercadoLibre, 2026). Illustration, not the actual house.</p>
+
+</section>
+
+<section class="slide" data-i="5" id="rates" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Nightly-rate benchmarks</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Big homes earn 2–6× the market average</h2>
+</div>
+<table style="font-size:26px;color:#1E2B27">
+<tr><th style="width:46%;text-align:left">Comparable</th><th style="width:16%;text-align:left">Source</th><th style="width:14%;text-align:left">Capacity</th><th style="width:24%;text-align:right">USD per night</th></tr>
+<tr><td>Bariloche average, all short-term rentals</td><td>AirDNA</td><td>All sizes</td><td style="text-align:right">108</td></tr>
+<tr><td>Villa Catedral (ski base) average</td><td>AirDNA</td><td>All sizes</td><td style="text-align:right">213</td></tr>
+<tr><td>Lake-view house, heated pool, San Ignacio</td><td>MercadoLibre</td><td>8 rooms</td><td style="text-align:right">250</td></tr>
+<tr><td>House with view, 3–4 rooms, ski season</td><td>Roomix</td><td>6–8 guests</td><td style="text-align:right">150–400</td></tr>
+<tr style="background:#ECE6DA"><td>5-bedroom house, priced by season</td><td>Argenprop</td><td>8 guests</td><td style="text-align:right">250–500</td></tr>
+<tr><td>8-bedroom house on Cerro Otto</td><td>Argenprop</td><td>500 m²</td><td style="text-align:right">700</td></tr>
+</table>
+<div data-build-in="rise" style="position:absolute;left:128px;top:792px;width:1664px;display:flex;gap:24px;align-items:center;background:#13221E;border-radius:16px;padding:28px 40px">
+<p style="font-size:44px;font-weight:600;color:#E0A55C;white-space:nowrap">USD 250–700</p>
+<p style="flex:1;font-size:28px;line-height:1.35;color:#D9DED9">is the going range for premium homes sleeping 6–10; a lake-view house can hold USD 500–650 in peak weeks.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Sources: AirDNA (Aug 2026); Argenprop and MercadoLibre listings (2026); Roomix (2026). The 5-bedroom house: 250 Jul–Oct, 400 Jan–Feb, 500 holidays.</p>
+
+</section>
+
+<section class="slide" data-i="6" id="references" data-transition="fade" style="background:#ECE6DA;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Reference businesses</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Who already runs this model well</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px">
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFDF8;border-radius:16px;padding:32px">
+<h3 style="font-size:30px;font-weight:600;line-height:1.2;color:#2F6F8F"><a href="https://www.vrbo.com/4817207">Bariloche Exclusive Lodge ↗</a></h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5550">Villa Tacul, near Llao Llao · 5 rooms, 11 guests, up to 19 · Vrbo, Expedia</p>
+<p style="font-size:24px;line-height:1.35;color:#9A5A17">Flexible capacity for big families</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFDF8;border-radius:16px;padding:32px">
+<h3 style="font-size:30px;font-weight:600;line-height:1.2;color:#2F6F8F"><a href="https://www.vrbo.com/4518924">Spectacular House by the Lake ↗</a></h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5550">Nahuel Huapi shore · 7 bedrooms, 500 m², sleeps 16 · Vrbo, Expedia</p>
+<p style="font-size:24px;line-height:1.35;color:#9A5A17">4 h of daily cleaning, all-in price</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFDF8;border-radius:16px;padding:32px">
+<h3 style="font-size:30px;font-weight:600;line-height:1.2;color:#2F6F8F"><a href="https://www.airbnb.com/rooms/7919309">Lakeside Villa, Llao Llao ↗</a></h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5550">6 bedrooms, 5 en-suite, sleeps 15, private shore · Airbnb Superhost</p>
+<p style="font-size:24px;line-height:1.35;color:#9A5A17">En-suites suit several families</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFDF8;border-radius:16px;padding:32px">
+<h3 style="font-size:30px;font-weight:600;line-height:1.2;color:#2F6F8F"><a href="https://www.airbnb.com/rooms/29059232">Patagonia 360º Luxury Retreat ↗</a></h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5550">4 bedrooms, 10 guests · Airbnb “Signature Home”, 4.91 rating</p>
+<p style="font-size:24px;line-height:1.35;color:#9A5A17">A brand and a story, not a listing</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFDF8;border-radius:16px;padding:32px">
+<h3 style="font-size:30px;font-weight:600;line-height:1.2;color:#2F6F8F"><a href="https://www.airbnb.com/rooms/1476323">Casa Kuntur, Arelauquen ↗</a></h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5550">Gated golf club · 5 bedrooms, 10 guests · Airbnb, top 1% of homes</p>
+<p style="font-size:24px;line-height:1.35;color:#9A5A17">Security and amenities lift rates</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFDF8;border-radius:16px;padding:32px">
+<h3 style="font-size:30px;font-weight:600;line-height:1.2;color:#2F6F8F"><a href="https://www.airbnb.com/san-carlos-de-bariloche-argentina/stays/villas">Casa Morel, San Ignacio ↗</a></h3>
+<p style="font-size:24px;line-height:1.35;color:#4A5550">Modern home in the target neighbourhood · Airbnb</p>
+<p style="font-size:24px;line-height:1.35;color:#9A5A17">Proves group demand in this exact area</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Click a name to open its booking page. Sources: Vrbo, Expedia and Airbnb listings for San Carlos de Bariloche (2026).</p>
+
+</section>
+
+<section class="slide" data-i="7" id="channels" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Distribution channels</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Three ways guests will find the house</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:16px;padding:40px">
+<div style="display:flex;gap:16px;align-items:center"><span class="ic" style="color:#2F6F8F;width:48px;height:48px;display:inline-flex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><h3 style="font-size:36px;font-weight:600;color:#13221E">Online platforms</h3></div>
+<p style="font-size:24px;font-weight:500;color:#2F6F8F">≈ 65% of bookings at launch</p>
+<ul style="font-size:26px;line-height:1.45;color:#4A5550">
+<li>Airbnb, aiming for Luxe</li>
+<li>Booking.com</li>
+<li>Vrbo and Expedia</li>
+<li>Google Vacation Rentals</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#13221E;border-radius:16px;padding:40px">
+<div style="display:flex;gap:16px;align-items:center"><span class="ic" style="color:#E0A55C;width:48px;height:48px;display:inline-flex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></span><h3 style="font-size:36px;font-weight:600;color:#F6F3EC">Direct bookings</h3></div>
+<p style="font-size:24px;font-weight:500;color:#E0A55C">Target 30–40% by year 2</p>
+<ul style="font-size:26px;line-height:1.45;color:#D9DED9">
+<li>Own site with booking engine</li>
+<li>Instagram and WhatsApp</li>
+<li>Repeat-guest offers</li>
+<li>Referrals and email list</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:16px;padding:40px">
+<div style="display:flex;gap:16px;align-items:center"><span class="ic" style="color:#2F6F8F;width:48px;height:48px;display:inline-flex"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17" cy="9" r="2.8"/><path d="M16 14.2a5.5 5.5 0 0 1 5.5 5.8"/></svg></span><h3 style="font-size:36px;font-weight:600;color:#13221E">Partners</h3></div>
+<p style="font-size:24px;font-weight:500;color:#2F6F8F">Groups and long stays</p>
+<ul style="font-size:26px;line-height:1.45;color:#4A5550">
+<li>Travel agents in Brazil and Buenos Aires</li>
+<li>Ski schools and tour operators</li>
+<li>Corporate retreats</li>
+<li>Local rental agencies</li>
+</ul>
+</div>
+</div>
+<p style="font-size:26px;line-height:1.4;color:#4A5550">A <b style="color:#1E2B27">channel manager</b> (e.g. Hostaway, Lodgify) syncs calendars and prices across all channels and avoids double bookings.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Platforms list Bariloche group homes today; local agencies such as Los Cerros Propiedades and Coldwell Banker Patagonia Lakes also run temporary rentals.</p>
+
+</section>
+
+<section class="slide" data-i="8" id="marketing" data-transition="fade" style="background:#ECE6DA;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Marketing strategy</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">From first photo to repeat guests</h2>
+</div>
+<hr style="position:absolute;left:128px;top:356px;width:1664px;border-top:3px solid #C8873A">
+<div data-build-in="rise order 1" style="position:absolute;left:128px;top:336px;width:392px;display:flex;flex-direction:column;gap:16px">
+<div style="width:40px;height:40px;background:#C8873A;border-radius:50%"></div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFDF8;border-radius:16px;padding:32px">
+<p style="font-size:24px;font-weight:500;color:#9A5A17">Months 0–2</p>
+<h3 style="font-size:36px;font-weight:600;color:#13221E">Prepare</h3>
+<ul style="font-size:24px;line-height:1.4;color:#4A5550"><li>Brand name and logo</li><li>Pro photos, drone and video</li><li>Website in PT, ES and EN</li></ul>
+</div>
+</div>
+<div data-build-in="rise order 2" style="position:absolute;left:552px;top:336px;width:392px;display:flex;flex-direction:column;gap:16px">
+<div style="width:40px;height:40px;background:#C8873A;border-radius:50%"></div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFDF8;border-radius:16px;padding:32px">
+<p style="font-size:24px;font-weight:500;color:#9A5A17">Months 2–4</p>
+<h3 style="font-size:36px;font-weight:600;color:#13221E">Launch</h3>
+<ul style="font-size:24px;line-height:1.4;color:#4A5550"><li>List on all platforms</li><li>Launch rates 10–15% lower to win the first 20 reviews</li><li>Google Business Profile</li></ul>
+</div>
+</div>
+<div data-build-in="rise order 3" style="position:absolute;left:976px;top:336px;width:392px;display:flex;flex-direction:column;gap:16px">
+<div style="width:40px;height:40px;background:#C8873A;border-radius:50%"></div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#FFFDF8;border-radius:16px;padding:32px">
+<p style="font-size:24px;font-weight:500;color:#9A5A17">Months 4–12</p>
+<h3 style="font-size:36px;font-weight:600;color:#13221E">Grow</h3>
+<ul style="font-size:24px;line-height:1.4;color:#4A5550"><li>Instagram and TikTok reels: snow, lake, fireplace</li><li>Meta and Google ads in São Paulo, Buenos Aires, Mexico</li><li>Family-travel creator stays</li></ul>
+</div>
+</div>
+<div data-build-in="rise order 4" style="position:absolute;left:1400px;top:336px;width:392px;display:flex;flex-direction:column;gap:16px">
+<div style="width:40px;height:40px;background:#13221E;border-radius:50%"></div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#13221E;border-radius:16px;padding:32px">
+<p style="font-size:24px;font-weight:500;color:#E0A55C">Year 2 onward</p>
+<h3 style="font-size:36px;font-weight:600;color:#F6F3EC">Scale direct</h3>
+<ul style="font-size:24px;line-height:1.4;color:#D9DED9"><li>5–10% off for booking direct</li><li>Packages: ski passes, private chef, boat tours</li><li>WhatsApp and email CRM</li></ul>
+</div>
+</div>
+<p style="position:absolute;left:128px;top:864px;width:1664px;font-size:26px;color:#1E2B27"><b>Targets:</b> 4.9★ rating · 50%+ yearly occupancy · 30–40% direct bookings · ad budget ≈ USD 250 per month</p>
+
+</section>
+
+<section class="slide" data-i="9" id="pricing" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Suggested rate card</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Price by season, average about USD 480</h2>
+</div>
+<table style="font-size:28px;color:#1E2B27">
+<tr><th style="width:30%;text-align:left">Season</th><th style="width:22%;text-align:left">When</th><th style="width:18%;text-align:right">USD / night</th><th style="width:14%;text-align:right">Min. stay</th><th style="width:16%;text-align:right">Occupancy</th></tr>
+<tr style="background:#ECE6DA"><td>Christmas &amp; New Year</td><td>20 Dec – 6 Jan</td><td style="text-align:right">650+</td><td style="text-align:right">7 nights</td><td style="text-align:right">90%+</td></tr>
+<tr style="background:#ECE6DA"><td>Winter peak</td><td>Jul – Aug</td><td style="text-align:right">620–650</td><td style="text-align:right">5 nights</td><td style="text-align:right">85–88%</td></tr>
+<tr><td>Summer high</td><td>Jan – Feb</td><td style="text-align:right">500–540</td><td style="text-align:right">4 nights</td><td style="text-align:right">74–82%</td></tr>
+<tr><td>Shoulder</td><td>Mar, Sep, early Dec</td><td style="text-align:right">370–420</td><td style="text-align:right">3 nights</td><td style="text-align:right">50–60%</td></tr>
+<tr><td>Low</td><td>Apr – Jun, Oct – Nov</td><td style="text-align:right">290–360</td><td style="text-align:right">2 nights</td><td style="text-align:right">25–38%</td></tr>
+</table>
+<div style="display:flex;gap:24px">
+<p style="flex:1;font-size:26px;line-height:1.35;color:#4A5550;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:12px;padding:24px">Cleaning fee <b style="color:#1E2B27">USD 100</b> per stay</p>
+<p style="flex:1;font-size:26px;line-height:1.35;color:#4A5550;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:12px;padding:24px">Above 8 guests <b style="color:#1E2B27">+USD 30</b> per person per night</p>
+<p style="flex:1;font-size:26px;line-height:1.35;color:#4A5550;background:#FFFDF8;border:1px solid #E3DDD0;border-radius:12px;padding:24px">Monthly stays in low season at <b style="color:#1E2B27">−30%</b></p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Rates set against the benchmarks on slide 6; adjust weekly with a dynamic-pricing tool (e.g. PriceLabs) as bookings come in.</p>
+
+</section>
+
+<section class="slide" data-i="10" id="revenue" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Revenue model · base case</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Three peak months earn half the year</h2>
+</div>
+<div style="display:flex;gap:64px">
+<div style="width:1100px;display:flex;flex-direction:column;gap:12px">
+<div style="display:flex;gap:10px;align-items:end;height:430px;border-bottom:2px solid #B4BFBA">
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;font-weight:600;color:#9A5A17">$13.7k</p><div style="width:56px;height:250px;background:#C8873A;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$10.4k</p><div style="width:56px;height:189px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$5.7k</p><div style="width:56px;height:104px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$3.8k</p><div style="width:56px;height:69px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$2.2k</p><div style="width:56px;height:41px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$4.1k</p><div style="width:56px;height:75px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;font-weight:600;color:#9A5A17">$17.7k</p><div style="width:56px;height:323px;background:#C8873A;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;font-weight:600;color:#9A5A17">$16.3k</p><div style="width:56px;height:298px;background:#C8873A;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$6.9k</p><div style="width:56px;height:126px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$3.9k</p><div style="width:56px;height:71px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$3.0k</p><div style="width:56px;height:54px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+<div style="width:80px;display:flex;flex-direction:column;gap:8px;align-items:center"><p style="font-size:24px;color:#4A5550">$9.3k</p><div style="width:56px;height:169px;background:#2F6F8F;border-radius:6px 6px 0 0"></div></div>
+</div>
+<div style="display:flex;gap:10px">
+<p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Jan</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Feb</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Mar</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Apr</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">May</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Jun</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Jul</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Aug</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Sep</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Oct</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Nov</p><p style="width:80px;text-align:center;font-size:24px;color:#4A5550">Dec</p>
+</div>
+<p style="font-size:24px;color:#4A5550"><span style="color:#9A5A17">Copper bars</span> = peak months (January, July, August): about half of revenue.</p>
+</div>
+<div data-build-in="rise" style="position:absolute;left:1292px;top:320px;width:500px;display:flex;flex-direction:column;gap:28px;background:#13221E;border-radius:16px;padding:40px">
+<div data-text><p style="font-size:24px;color:#AEB8B3">Gross revenue per year</p><p style="font-size:56px;font-weight:600;color:#E0A55C">USD 97.1k</p></div>
+<div data-text><p style="font-size:24px;color:#AEB8B3">Nights booked</p><p style="font-size:44px;font-weight:600;color:#F6F3EC">202 · 55%</p></div>
+<div data-text><p style="font-size:24px;color:#AEB8B3">Average nightly rate</p><p style="font-size:44px;font-weight:600;color:#F6F3EC">USD 480</p></div>
+<div data-text><p style="font-size:24px;color:#AEB8B3">Market occupancy today</p><p style="font-size:44px;font-weight:600;color:#F6F3EC">52%</p></div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Own model: monthly occupancy × rate from slide 10. Market occupancy: AirDNA, Bariloche, trailing 12 months to Aug 2026. Excludes cleaning and extra-guest fees.</p>
+
+</section>
+
+<section class="slide" data-i="11" id="economics" data-transition="fade" style="background:#ECE6DA;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Unit economics · base case</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">USD 555k in, about USD 55k a year out</h2>
+</div>
+<div style="display:flex;gap:48px;align-items:start">
+<div style="width:700px;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-size:32px;font-weight:600;color:#13221E">Investment (USD)</h3>
+<table style="font-size:26px;color:#1E2B27;background:#FFFDF8">
+<tr><th style="width:70%;text-align:left">Item</th><th style="width:30%;text-align:right">Amount</th></tr>
+<tr><td>Purchase price</td><td style="text-align:right">500,000</td></tr>
+<tr><td>Closing costs, taxes, fees ≈ 7%</td><td style="text-align:right">35,000</td></tr>
+<tr><td>Furniture, equipment, photos</td><td style="text-align:right">20,000</td></tr>
+<tr style="background:#13221E"><td style="color:#F6F3EC">Total invested</td><td style="text-align:right;color:#E0A55C">555,000</td></tr>
+</table>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px">
+<h3 style="font-size:32px;font-weight:600;color:#13221E">Yearly operating result (USD)</h3>
+<table style="font-size:26px;color:#1E2B27;background:#FFFDF8">
+<tr><th style="width:72%;text-align:left">Line</th><th style="width:28%;text-align:right">Per year</th></tr>
+<tr><td>Gross rental revenue</td><td style="text-align:right">97,100</td></tr>
+<tr><td>Platform fees, 12% (platforms + direct mix)</td><td style="text-align:right">−11,700</td></tr>
+<tr><td>Property management, 15%</td><td style="text-align:right">−14,600</td></tr>
+<tr><td>Utilities and heating</td><td style="text-align:right">−4,800</td></tr>
+<tr><td>Maintenance, 1% of price</td><td style="text-align:right">−5,000</td></tr>
+<tr><td>Property taxes and insurance</td><td style="text-align:right">−3,000</td></tr>
+<tr><td>Marketing, linens, supplies</td><td style="text-align:right">−3,000</td></tr>
+<tr style="background:#13221E"><td style="color:#F6F3EC">Net operating income</td><td style="text-align:right;color:#E0A55C">55,100</td></tr>
+</table>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Estimates to confirm with a local accountant and notary. Before income tax and financing; cleaning is paid by the guest’s fee.</p>
+
+</section>
+
+<section class="slide" data-i="12" id="payback" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Payback scenarios</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">About 10 years in the base case, 7 at best</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;gap:32px;align-items:center">
+<div data-text style="width:400px"><p style="font-size:28px;font-weight:600;color:#1E2B27">Conservative</p><p style="font-size:24px;color:#4A5550">47% occupancy, rates −8%</p></div>
+<div style="width:880px;height:56px;background:#B4BFBA;border-radius:0 8px 8px 0"></div>
+<p style="font-size:28px;color:#4A5550;white-space:nowrap">14.3 yrs · 7.0%</p>
+</div>
+<div style="display:flex;gap:32px;align-items:center">
+<div data-text style="width:400px"><p style="font-size:28px;font-weight:600;color:#1E2B27">Base case</p><p style="font-size:24px;color:#4A5550">55% occupancy, rate card</p></div>
+<div style="width:621px;height:56px;background:#2F6F8F;border-radius:0 8px 8px 0"></div>
+<p style="font-size:28px;font-weight:600;color:#2F6F8F;white-space:nowrap">10.1 yrs · 9.9%</p>
+</div>
+<div style="display:flex;gap:32px;align-items:center">
+<div data-text style="width:400px"><p style="font-size:28px;font-weight:600;color:#1E2B27">Optimistic</p><p style="font-size:24px;color:#4A5550">61% occupancy, rates +8%</p></div>
+<div style="width:492px;height:56px;background:#2F6F8F;border-radius:0 8px 8px 0"></div>
+<p style="font-size:28px;font-weight:600;color:#2F6F8F;white-space:nowrap">8.0 yrs · 12.5%</p>
+</div>
+<div style="display:flex;gap:32px;align-items:center">
+<div data-text style="width:400px"><p style="font-size:28px;font-weight:600;color:#1E2B27">Best case</p><p style="font-size:24px;color:#4A5550">Optimistic, 40% direct, 8% caretaker</p></div>
+<div style="width:425px;height:56px;background:#C8873A;border-radius:0 8px 8px 0"></div>
+<p style="font-size:28px;font-weight:600;color:#9A5A17;white-space:nowrap">6.9 yrs · 14.4%</p>
+</div>
+</div>
+<div data-build-in="rise" style="position:absolute;left:128px;top:812px;width:1664px;display:flex;gap:24px;align-items:center;background:#13221E;border-radius:16px;padding:24px 40px">
+<p style="flex:1;font-size:26px;line-height:1.4;color:#D9DED9">Cash payback only. <b style="color:#E0A55C">Property appreciation in USD is extra.</b> Each USD 50k off the price cuts the base payback by about 0.9 years.</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Bar length = years to recover USD 555k from net operating income; percentage = yearly net cash yield. Own model.</p>
+
+</section>
+
+<section class="slide" data-i="13" id="risks" data-transition="fade" style="background:#F6F3EC;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Risks and mitigation</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">What could go wrong, and the answer</h2>
+</div>
+<table style="font-size:26px;color:#1E2B27">
+<tr><th style="width:20%;text-align:left">Risk</th><th style="width:42%;text-align:left">What we see</th><th style="width:38%;text-align:left">Mitigation</th></tr>
+<tr><td>Seasonality</td><td>Half of revenue in 3 months</td><td>Monthly stays and events in low season</td></tr>
+<tr><td>Argentine economy</td><td>Real tourist spend −7.4% in H1 2026</td><td>Price in USD; target foreign guests</td></tr>
+<tr><td>Regulation</td><td>City is policing unlicensed rentals</td><td>Register and license from day one</td></tr>
+<tr><td>Air access</td><td>Chilean arrivals −25% in summer 2026</td><td>Spread across Brazil, Mexico, Argentina</td></tr>
+<tr><td>Remote owner</td><td>Snow, heating, guest issues</td><td>Local manager, smart lock, caretaker</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6B7570">Sources: Barilo Noticias (Jul 2026); Vivo Informado (Mar 2026); ANBariloche (Dec 2024: 90% of tourist lodgings were unlicensed).</p>
+
+</section>
+
+<section class="slide" data-i="14" id="sources" data-transition="fade" style="background:#ECE6DA;color:#1E2B27;font-family:'Rubik', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<p style="font-size:24px;letter-spacing:3px;text-transform:uppercase;font-weight:500;color:#9A5A17">Appendix</p>
+<h2 style="font-family:'Cormorant Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.05;color:#13221E">Sources</h2>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#9A5A17">News</h3>
+<ul style="font-size:24px;line-height:1.5;color:#4A5550">
+<li><a href="https://mercado.com.ar/negocios/__trashed-400">Mercado – Winter 2026 forecast</a></li>
+<li><a href="https://www.noticiasnqn.com.ar/noticias/2026/08/04/346396-rio-negro-fue-el-destino-mas-elegido-del-invierno-2026-y-bariloche-alcanzo-un-90por_ciento-de-ocupacion">Noticias NQN – Winter 2026</a></li>
+<li><a href="https://www.barilocheopina.com/noticias/2026/02/03/84684-bariloche-consolida-su-temporada-de-verano-con-altos-niveles-de-ocupacion-y-gran-movimiento-turistico">Bariloche Opina – January 2026</a></li>
+<li><a href="https://www.barilocheopina.com/noticias/2026/08/18/92779-emprotur-ya-trabaja-en-el-verano-tras-un-invierno-con-alta-ocupacion">Bariloche Opina – New markets</a></li>
+<li><a href="https://www.vivoinformado.com.ar/2026/03/balance-de-temporada-de-verano.html">Vivo Informado – Summer 2026</a></li>
+<li><a href="https://barilonoticias.com/turismo/bariloche-cerro-el-semestre-con-mas-de-650-mil-arribos-y-sostiene-sus-expectativas-para-el-invierno/23/07/2026/">Barilo Noticias – H1 2026</a></li>
+<li><a href="https://www.mercadoeeventos.com.br/?p=704695">Mercado &amp; Eventos – Brazilians</a></li>
+<li><a href="https://www.anbariloche.com.ar/noticias/2024/12/17/96517-el-90por_ciento-de-los-alojamientos-turisticos-de-bariloche-no-esta-habilitado">ANBariloche – Unlicensed rentals</a></li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#9A5A17">Houses for sale</h3>
+<ul style="font-size:24px;line-height:1.5;color:#4A5550">
+<li><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-venta-excelente-casa-5-dorm.-vista-panoramica-san-59366354.html">Zonaprop – Comparable house</a></li>
+<li><a href="https://inmuebles.mercadolibre.com.ar/rio-negro/bariloche/san-ignacio-del-cerro/">MercadoLibre – San Ignacio</a></li>
+<li><a href="https://roomix.ai/blog/cuanto-cuesta-comprar-casa-en-bariloche-2026">Roomix – House prices 2026</a></li>
+</ul>
+<h3 style="font-size:28px;font-weight:600;color:#9A5A17">Rentals</h3>
+<ul style="font-size:24px;line-height:1.5;color:#4A5550">
+<li><a href="https://www.argenprop.com/casas/alquiler-temporal/bariloche/5-o-mas-ambientes/dolares-hasta-75000">Argenprop – Holiday houses</a></li>
+<li><a href="https://inmuebles.mercadolibre.com.ar/rio-negro/bariloche/san-ignacio-del-cerro/">MercadoLibre – Pool house</a></li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:28px;font-weight:600;color:#9A5A17">Online platforms</h3>
+<ul style="font-size:24px;line-height:1.5;color:#4A5550">
+<li><a href="https://www.vrbo.com/4817207">Vrbo – Exclusive Lodge</a></li>
+<li><a href="https://www.vrbo.com/4518924">Vrbo – House by the lake</a></li>
+<li><a href="https://www.airbnb.com/rooms/7919309">Airbnb – Lakeside Villa</a></li>
+<li><a href="https://www.airbnb.com/rooms/29059232">Airbnb – Patagonia 360º</a></li>
+<li><a href="https://www.airbnb.com/rooms/1476323">Airbnb – Casa Kuntur</a></li>
+</ul>
+<h3 style="font-size:28px;font-weight:600;color:#9A5A17">Market data</h3>
+<ul style="font-size:24px;line-height:1.5;color:#4A5550">
+<li><a href="https://www.airdna.co/vacation-rental-data/app/ar/rio-negro">AirDNA – Río Negro</a></li>
+<li><a href="https://airroi.com/airbnb-data/argentina/río-negro/san-carlos-de-bariloche">AirROI – Bariloche</a></li>
+</ul>
+</div>
+</div>
+
+</section>
+
+</div></div>
+<div id="bar"></div>
+<div id="ui"><button id="prev" aria-label="Previous slide">‹</button><span id="count"></span><button id="next" aria-label="Next slide">›</button><button id="fs" aria-label="Full screen">⤢</button></div>
+<script>
+(function(){
+var S=[].slice.call(document.querySelectorAll('.slide')),n=S.length,cur=-1,stage=document.getElementById('stage');
+function fit(){var k=Math.min(innerWidth/1920,innerHeight/1080);stage.style.transform='scale('+k+')';}
+addEventListener('resize',fit);fit();
+function order(el){var m=(el.getAttribute('data-build-in')||'').match(/order (\d+)/);return m?+m[1]:1;}
+function go(i){i=Math.max(0,Math.min(n-1,i));if(i===cur)return;
+ S.forEach(function(s,j){s.classList.toggle('on',j===i);});
+ S[i].querySelectorAll('[data-build-in]').forEach(function(el){el.style.transitionDelay=(0.25+0.18*(order(el)-1))+'s';});
+ cur=i;document.getElementById('count').textContent=(i+1)+' / '+n;
+ document.getElementById('bar').style.width=((i+1)/n*100)+'%';
+ history.replaceState(null,'','#'+(i+1));}
+go((parseInt(location.hash.slice(1))||1)-1);
+addEventListener('keydown',function(e){
+ if(['ArrowRight','PageDown',' ','Enter'].indexOf(e.key)>=0){e.preventDefault();go(cur+1);}
+ else if(['ArrowLeft','PageUp','Backspace'].indexOf(e.key)>=0){e.preventDefault();go(cur-1);}
+ else if(e.key==='Home')go(0);else if(e.key==='End')go(n-1);
+ else if(e.key==='f'||e.key==='F')fs();});
+document.getElementById('viewport').addEventListener('click',function(e){if(e.target.closest('a'))return;go(e.clientX>innerWidth*0.3?cur+1:cur-1);});
+document.getElementById('prev').onclick=function(){go(cur-1);};
+document.getElementById('next').onclick=function(){go(cur+1);};
+function fs(){if(!document.fullscreenElement)document.documentElement.requestFullscreen&&document.documentElement.requestFullscreen();else document.exitFullscreen();}
+document.getElementById('fs').onclick=fs;
+var x0=null;addEventListener('touchstart',function(e){x0=e.touches[0].clientX;},{passive:true});
+addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40)go(cur+(dx<0?1:-1));x0=null;});
+})();
+</script>
+</body></html>
